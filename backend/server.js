@@ -12,6 +12,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5173",
+      "https://mern-ai-flow.vercel.app/"
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
