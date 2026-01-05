@@ -117,6 +117,8 @@ function Flow () {
     if (!result) return alert("Nothing to save");
     const res = await AddPromptDataService(prompt, result);
     alert("Saved to MongoDB");
+    setPrompt("");
+    setResult("");
   };
 
   return (
